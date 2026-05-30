@@ -33,14 +33,14 @@ nav a.active {
 }
 
 .container {
-    width: 90%;
+    width: 96%;
     margin: 20px auto;
     position: relative;
 }
 
 #map {
     width: 100%;
-    height: 620px;
+    height: 820px;
 }
 
 .default-button {
