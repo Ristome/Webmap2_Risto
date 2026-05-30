@@ -2,8 +2,8 @@ import * as turfPractice from "./turfPractice.js";
 import * as layers from "./layers.js";
 
 let map = L.map('map', {
-    center: [58.374, 26.715],
-    zoom: 18,
+    center: [58.373523, 26.716045],
+    zoom: 12,
     zoomControl: true
 });
 
@@ -72,7 +72,7 @@ let markersLayer;
 let activeWmsLayers = {};
 
 function defaultMapSettings() {
-    map.setView([58.374, 26.715], 18);
+    map.setView([58.373523, 26.716045], 12);
 }
 
 document.getElementById("applySettingsButton").addEventListener("click", defaultMapSettings);
